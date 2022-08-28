@@ -48,7 +48,7 @@ i.fa-solid.fa-phone {
 ul.navbar-nav {
     
     position: relative;
-    left: 35%;
+    left: 34%
 }
 a.nav-link {
     padding: 30px 0px;
@@ -63,12 +63,12 @@ li.nav-item {
     color: rgba(0,0,0,.5);
     color: black;
 }
-.sec{
+.vesh{
     background-image: url(image/hero_bg_4_1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 520px;
+    padding-top: 200px;
 }
 
 
@@ -246,7 +246,7 @@ img.last {
 .scrd {
     background-color: #fff;
     border-radius: 10px;
-    padding: 30px 30px 15px 30px;
+    padding: 20px 13px 15px 12px;
     display: flex;
 }
 
@@ -365,7 +365,7 @@ a.play-btn.popup-video {
 .meta{
     border-top: 1px solid #e5e5e5;
     margin-top: 4px;
-    padding: 20px 0 4px;
+    padding: 20px 0 20px;
 
 }
 .timer{
@@ -441,14 +441,13 @@ h2.sec-title {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 79%, 0 100%);
     background-color: #ff5e14;
   }
-  .blog_section .blog_content .blog_item .blog_details {
-    padding: 25px 20px 30px 20px;
-  }
+  
+  
   .blog_section .blog_content .blog_item .blog_details .blog_title h5 a {
     color: #020d26;
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 26px;
+    font-size: 23px;
     line-height: 32px;
     font-weight:500;
     transition: all 0.3s;
@@ -493,7 +492,7 @@ img.lpal {
     
 }
 i.fas.fa-file {
-    padding: 15px;
+    padding: 13px;
     background-color:#0D5EF4;
     border-radius: 8px;
     margin-right: 10px;
@@ -716,6 +715,7 @@ p.righter {
     background-color: #fff;
 }
 
+
 .teach:hover {
     color:#0D5EF4;
     text-decoration: none;
@@ -881,7 +881,7 @@ img.sluid {
 }
 .meta{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
 }
 .sectin{
     background-image: url(image/why_bg_1.png);
@@ -1046,12 +1046,11 @@ a.perry {
     font-weight: 500;
     font-family: inherit;
     }
-    .text {
-        padding: 110px 0px;
-    }
+    
     .left-text {
         padding: 0px;
     }
+    
     .feature-card {
         margin-top: 70px;
     }
@@ -1187,6 +1186,9 @@ a.perry {
     .paad {
         margin-top: 60px;
     }
+    i.fas.fa-user {
+        padding: 13px;
+    }
     .know {
         text-align: center;
     }
@@ -1220,6 +1222,14 @@ a.perry {
     }
     .meta-box {
         display:inline;
+        
+    }
+    span.text {
+        font-size: 12px;
+    }
+    .course-meta {
+        display: flex;
+        
     }
     img.lpal {
         max-width: 100%;
@@ -1232,6 +1242,7 @@ a.perry {
     
     .ritex {
         margin-top:170px;
+        text-align: center;
     }
     .thik {
         position: relative;
